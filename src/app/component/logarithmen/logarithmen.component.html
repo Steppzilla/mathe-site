@@ -1,0 +1,279 @@
+<h1>Erste Annäherung</h1>
+
+<h2>Berechnungen: Potenzen zu einer Basiszahl</h2>
+
+`Basis^Exponent=Potenzwert`
+
+<h3> positive Potenzen </h3>
+
+Wir addieren im Exponenten immer einen hinzu und erkennen, dass die Potenzwerte (rechts) immer mit 2 multipliziert werden.
+
+`2 =`
+<br>
+` 2^2 = 4`
+<br>
+` 2^3 = 8`
+<br>
+` 2^4 = 16`
+<br>
+` 2^5 = 32`
+<br>
+` 2^6 = 64`
+<br>
+` 2^7 = 128`
+<br>
+` 2^8 = 256`
+<br>
+` 2^9 = 512`
+<br>
+` 2^10 = 1024`
+<br>
+` 2^11 = 2048`
+<br>
+` 2^12 = 4096`
+<br>
+` 2^13 = 8192`
+<br>
+Fazit:
+Wenn man mit derselben Basis rechnet, so entspricht dann die Addition von 1 im Exponenten dem Vervielfachen des Potenzwertes um diese Basiszahl.
+
+<h3>negative Potenzen </h3>
+
+Wir ziehen im Exponenten immer einen ab und erkennen ein Muster in den Potenzwerten (rechts), die wir 
+in der Logarithmenrechnung Numeri nennen (Singular: Numerus).
+
+`2^1 = 2`
+<br>
+` 2^0 = 1`
+<br>
+` 2^-1 = 1/2`
+<br>
+` 2^-2 = 1/4`
+<br>
+` 2^-3 = 1/8`
+<br>
+` 2^-4 = 1/16`
+<br>
+` 2^-5 = 1/32`
+<br>
+` 2^-n = 1/2^n`
+<br>
+
+Beispiel mit hoher Zahl:
+
+<br>
+` 2^-11 = 1/2^11 = 1/2048`
+<br>
+Beispiel mit Zehnerzahl:
+
+<br>
+` 10^-11 = 1/10^11 = 1/100000000000 = 0,00000000001`
+
+<br>
+Fazit:
+Wenn man mit derselben Basis rechnet, so entspricht dann die Reduzierung um 1 des Exponenten dem Teilen des Potenzwertes durch die Basiszahl.
+
+
+<h3> Potenzen mit rationalen Zahlen / Brüche im Exponenten </h3>
+
+Wir teilen den Exponent immerm durch 2 und schauen, welch Regelmäßigkeiten sich in den Numeri (rechts) ergeben (nach oben bzw. unten).
+<br>
+`2^12 = 4096`
+<br>
+`2^6 = 64`
+<br>
+` 2^3 = 8`
+<br>
+` 2^(3/2) = sqrt(8)`
+<br>
+` 2^(3/4) = root(4)(8)`
+<br>
+` 2^(3/8) = root(8)(2^3)`
+
+Fazit:
+Wenn man mit derselben Basis rechnet, so entspricht die Teilung des Exponenten mit 2 dem Ziehen einer Quadratwurzel im Potenzwert/Numerus.
+Wenn man den Exponent durch eine andere Zahl n teilt, so entspricht dies im Potenzwert/Numerus dem Ziehen der n-ten Wurzel.a
+
+<br>
+
+Beispiele:
+<br> 
+`4^2 = 16`
+<br> 
+`4^(-2) = 1/16`
+<br> 
+`4^(4/3) = root(3)(4^4)`
+<br> 
+`(1/2)^2 = 1/4`
+<br> 
+`(1/2)^(-2) = 1 / (1/2)^2 = 1 / (1/4) = 4`
+<br> 
+`2^(4/2) = 4`
+<br> 
+`(3)^(-2) = 1 / 3^2 = 1 /9`
+<br> 
+`5^2 = 4`
+<br> 
+`25^(1/2) = 5`
+<br> 
+`49^(0,5) = 7`
+<br> 
+`625^(1/4) = 5`   
+<br> 
+`216^(1/3) = 6`
+
+
+<h2>Rechenregeln: Potenzen zu einer Basiszahl</h2>
+
+Beispiele:
+
+<br>
+
+`2^3 cdot 2^5 = 2 ^8 = 256` 
+<br>
+`2^(-5) cdot 2^4 = 2 ^1 = 2 ` 
+<br>
+`2^(-3) cdot 2^4 cdot 2^(-1) = 2 ^0 = 1 ` 
+<br> 
+Regel: Wenn man zwei Potenzen mit derselben Basis multipliziert, so kann man die Exponenten addieren.
+<br>
+
+`2^(-4) cdot 3^(-5) =?`
+<br>
+Fazit: Es gibt einige Terme, die man nicht vereinfachen kann mit den bekannten gesetzen, da sich die Basen unterscheiden.
+
+<br>
+
+`2^(4) cdot 3^(4) = (2 cdot 3 ) ^4 = 6^4 = 36 cdot 6^2 = 216 cdot 6 =  1296 `
+<br>
+
+Regel: Wenn man zwei Potenzen mit dem selben Exponent multipliziert, so kann man die Basen multiplizieren und der Exponent bleibt gleich.
+
+<br>
+
+Beispiele: 
+
+<br> 
+
+<h2> Logarithmen </h2>
+
+Bei der Logarithmenrechnung nennen wir die Zahlen einer Potenzgleichung folgendermaßen: 
+<br>
+
+`text(Basis)^text(Logarithmus) = text(Numerus)`
+
+<br>
+ Bisher wollten wir immer den Potenzwert berechnen, das ist auch weiterhin der Fall. Das Ziel ist aber, 
+ dass wir nur noch die einfachen Rechnungen in den Exponenten machen müssen und uns das Mutliplizieren sparen.
+ Um das zu erreichen müssen wir uns für eine Basiszahl entscheiden! Wir verwenden im Folgenden immer Basis 10, da 
+ unser Zahlensystem auf die 10 basiert, es sind aber natürlich alle anderen Basen genausogut verwendbar.
+ Für diese Basis müssen wir eine Tabelle erstellen, die für jeden Numerus jeweils die Hochzahl (den Logarithmus) anzeigt. 
+<br> 
+ Beispiel:
+ <br>
+
+ Numerus     | Logarithmus   zur Basis 10
+ <br>
+ 100     ->  |  2 
+ <br>
+ 1000    ->   | 3
+ <br>
+ Addition der Logarithmen ergibt: 5!  
+ Nun müssen wir nur den Numerus bestimmen, indem wir unsere Basiszahl wieder hinzufügen, also `10^5 = 10000` 
+ <br>
+
+ Für gerade Zehnerpotenzen ist diese Rechnung natürlich auch ohne die Logarithmen einfach.
+ Die Seefahrer mussten damals aber sehr häufig unterschiedliche Meilen multiplizieren um Entfernungen zu berechnen. Bei jeder neuen Peilung mussten sie wieder beginnen zu rechnen,
+ sodass diese Logarithmenrechnung jede Menge Zeit sparen konnte. 
+<br>
+ Wir müssen aber zunächst eine Logarithmentabelle haben, dazu müssen wir nicht nur die Werte für "glatte" Zehnerzahlen wissen, sondern auch die dazwischen.
+<br>
+ Welche Zahlen könnten wir eventuell einfach bestimmen (zunächst im Bereich zwischen 1-10?):
+  <br>
+
+ 1 |   0
+<br>
+10 |  1
+
+<br>
+
+Beispiel: Ein Teilen durch 2 im Eponent (hier: rechts) entspricht der Wurzel im Numerus
+<br>
+`sqrt(10) | 0,5`
+<br> 
+
+`sqrt(10)=3,...(16227766)`  durch Probieren weitere Stellen herausfinden ! Ohne Taschenrechner.  
+
+<br> 
+
+Vorteil an der Basis 10: Im Logarithmus entspricht das Addieren/Subtrahieren von 1 eine Verschiebung des Kommas nach rechts/links. 
+<br>
+
+
+
+
+
+
+Wurzel aus unserer Lösung mit Taschenrechner/Sammeln bisheriger Ergebnisse:
+<br>
+1  |   0
+<br> 
+ 1,778279   | 0.25
+ <br>
+ 3,16227766 | 0.5
+ <br>
+  x          | 0.75?
+ <br>
+ 10 |  1
+
+ <br> 
+
+ An das x kommen wir folgendermaßen ran: Wir suchen den Numerus von `10^0,75` und wissen, 
+ das ergibt sich aus `10^0,25 cdot 10^0,5` und entspricht also `1,778279 cdot 3,16227766`. 
+ Später können wir uns diese Rechnung sparen, aber aktuell müssen wir es einmal machen für das Erstellen der Tabelle.
+
+ <br>
+
+ `x= 5,62341195`
+ <br> 
+
+ Wir könnten durch weiteres Wurzel ziehen weitere Werte herausbekommen. 
+ Uns genügt es aber ein paar Vergleichswerte nun zu haben, um die Tabelle zu überprüfen,
+  die dann im weiteren Verlauf benutzt werden darf und ohne die alle weiteren Rechnungen sehr viel Zeit beanspruchen würden.
+
+
+  <br> 
+
+  Eine erste Rechnung: Berechnen Sie `5 cdot 7 ` mit Hilfe der Logarithmentabelle
+
+  <br> 
+
+  5  |  
+<br> 
+7 |
+<br>
+|
+<br> 
+
+
+Bsp: Ein Seemann peilt (zur rechten Seite des Schiffes) unter dem Winkel von `20^circ ` einen Leuchtturm an, zu dem er 1 Minute später den Winkel `30^circ ` misst.
+Wie weit ist der Seemann bei der zweiten Messung vom Leuchtturm entfernt? Er fährt `40 (km)/h`.  
+Die Gradzahl entspricht dem Winkel, den der Seemann abweichend von der Kursrichtung bereits berechnet hat.
+
+<br> 
+Ansatz: Mit `40 (km)/h` fährt er `40000 m/h` bzw  `40000 m/60min = 4000/6 m/min ` 
+<br>
+Er fährt also in einer Minute 4000:6 = 666,67 Meter.
+<br> 
+Die Winkel des Dreiecks betragen `20^circ` und `70^circ`.  
+<br> 
+Rechnung: Winkel beim Leuchtturm berechnen: `90^circ`
+<br> 
+Sinussatz bzw. wegen des rechten Winkels ist die gefahrene Seite die Hypothenuse und wir können rechnen:
+<br>
+`cos(70^circ) = x / (666,67)`
+<br> 
+` x = cos(70^circ) cdot 666,67 `
+<br>
+` x = 0,342020143 cdot 666,67 `
+

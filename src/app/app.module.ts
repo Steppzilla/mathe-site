@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LogarithmenComponent } from './component/logarithmen/logarithmen.component';
+import { MenuComponent } from './component/menu/menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LogarithmenComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
