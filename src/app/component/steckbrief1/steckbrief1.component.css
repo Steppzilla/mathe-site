@@ -1,0 +1,26 @@
+*{color:darkgrey;
+    background-color:rgb(39, 39, 41);
+}
+
+h3{
+    font-size:14pt;
+}
+/*h3:hover{color:blue;
+}*/
+.hide{color:rgb(39, 39, 41);
+height:5pt;
+opacity:0;
+pointer-events: none;
+}
+.show{color:darkgrey;
+height:auto;
+opacity:1;
+pointer-events: auto;
+}
+
+.body{
+    /*background-color:blue;*/
+
+}
+.container{border: 1pt solid;
+border-radius:5pt;}
